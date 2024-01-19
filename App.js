@@ -16,7 +16,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "yellow",
-    alignItems: "center",
     justifyContent: "center",
     gap: 30,
   },
@@ -26,8 +25,7 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
   signature: {
-    alignItems: "flex-end",
-    justifyContent: "flex-end",
+    color: "red",
     fontSize: 80,
     textAlign: "right",
     marginTop: 20,
